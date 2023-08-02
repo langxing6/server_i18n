@@ -18,7 +18,7 @@ import org.springframework.web.servlet.support.RequestContextUtils;
 public class TestControler {
 
     @Autowired
-    private MessageSource messageSource;
+    private MessageSource messageSource; // setDefaultEncoding
 
     @Autowired
     private HttpServletRequest request;
